@@ -25,6 +25,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
 TARGET_KERNEL_CONFIG := mido_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
 
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
